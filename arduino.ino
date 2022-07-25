@@ -2,6 +2,7 @@
 
 const int DOUT = 3;   //sensor data pin
 const int SCLK  = 2;   //sensor clock pin
+int scaledatm = 0;
 
 HX710B pressure_sensor; 
 
@@ -13,11 +14,13 @@ void setup() {
 void loop() {
 
   if (pressure_sensor.is_ready()) {
+    /*
     Serial.print("Pascal: ");
     Serial.println(pressure_sensor.pascal());       // 100000 ~ 50000
+    */
+    scaledatm = pressure_sensor.atm *10
+    Serial.println(scaledatm);
     /*
-    Serial.print("ATM: ");
-    Serial.println(pressure_sensor.atm());
     Serial.print("mmHg: ");
     Serial.println(pressure_sensor.mmHg());
     Serial.print("PSI: ");
@@ -28,5 +31,5 @@ void loop() {
   }
 
   delay(1000);
-  
+
 }
