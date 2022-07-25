@@ -2,7 +2,7 @@
 
 const int DOUT = 3;   //sensor data pin
 const int SCLK  = 2;   //sensor clock pin
-int scaledatm = 0;
+float scaledatm = 0;
 
 HX710B pressure_sensor; 
 
