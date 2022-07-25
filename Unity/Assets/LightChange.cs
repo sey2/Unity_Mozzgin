@@ -63,9 +63,8 @@ public class LightChange : MonoBehaviour
             try
             {   
                 airData = float.Parse(serial.ReadLine());
-                Debug.Log(airData);
-                //airData = BitConverter.ToSingle(serial.ReadByte(), 0);
-                //Debug.Log("Air Pressure Sensor: " + airData);
+                Debug.Log("Air Pressure Sensor: " + airData);
+                lt.range = airData;
     
             }
             catch (System.Exception)
