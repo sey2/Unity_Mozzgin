@@ -14,7 +14,7 @@ void loop() {
 
   if (pressure_sensor.is_ready()) {
     Serial.print("Pascal: ");
-    Serial.println(pressure_sensor.pascal());
+    Serial.println(pressure_sensor.pascal());       // 100000 ~ 50000
     /*
     Serial.print("ATM: ");
     Serial.println(pressure_sensor.atm());
