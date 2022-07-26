@@ -18,7 +18,7 @@ void loop() {
     Serial.print("Pascal: ");
     Serial.println(pressure_sensor.pascal());       // 100000 ~ 50000
     */
-    scaledatm = pressure_sensor.atm *10
+    scaledatm = pressure_sensor.atm() * 10;
     Serial.println(scaledatm);
     /*
     Serial.print("mmHg: ");
