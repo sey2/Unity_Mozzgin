@@ -27,7 +27,7 @@ void loop() {
     Serial.println(pressure_sensor.psi());
     */
   } else {
-    Serial.println("Pressure sensor not found.");
+    Serial.println("9999"); /*Pressure sensor not found.*/
   }
 
   delay(1000);
