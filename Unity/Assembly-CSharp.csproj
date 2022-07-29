@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\SliderScripts.cs" />
      <Compile Include="Assets\LightChange.cs" />
+     <Compile Include="Assets\InputTextScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
