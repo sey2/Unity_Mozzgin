@@ -7,7 +7,6 @@ public class LightChange : MonoBehaviour
 {
 
     /* light value define */
-    float duration  = 3.0f;
     float originalRange;
     float lightRange = 0.0f;
     Light lt;
@@ -34,7 +33,7 @@ public class LightChange : MonoBehaviour
 
     void Start()
     {
-        InitArduinoCommunication();
+        //InitArduinoCommunication();
 
         lt = GetComponent<Light>();
         originalRange = lt.range;
@@ -44,8 +43,8 @@ public class LightChange : MonoBehaviour
     
         //  StartCoroutine("Fade");     // 조명의 값이 잘 바뀌는지 확인하고 싶으면 여기 있는 주석을 풀어주세요 
 
-        InputArduinoData();
-        lt.range = airData;
+       // InputArduinoData();
+        //lt.range = airData;
     }
 
     void InitArduinoCommunication(){
