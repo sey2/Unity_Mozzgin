@@ -37,7 +37,7 @@ public class LightChange : MonoBehaviour
 
     public bool ioCheckFlag = false;
 
-    List<float> dataList = new List<float>();
+    public List<float> dataList = new List<float>();
 
     void Start()
     {
@@ -100,6 +100,5 @@ public class LightChange : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
     }
-
 
 }
