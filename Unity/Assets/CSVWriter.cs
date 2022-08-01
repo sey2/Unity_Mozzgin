@@ -22,7 +22,7 @@ public class CSVWriter : MonoBehaviour
     void Start()
     {
         lanternObj = GameObject.Find("Lentern Light");
-        filename = Application.dataPath + "/test.csv";
+        filename = Application.dataPath + "/dataSheet.csv";
 
         saveBtn.onClick.AddListener(delegate{
             List<float> tmp = lanternObj.GetComponent<LightChange>().dataList;

@@ -50,7 +50,6 @@ public class LightChange : MonoBehaviour
     {
     
         //  StartCoroutine("Fade");     // 조명의 값이 잘 바뀌는지 확인하고 싶으면 여기 있는 주석을 풀어주세요 
-
         InputArduinoData();
         lt.range = airData;
     }
