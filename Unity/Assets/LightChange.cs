@@ -37,6 +37,8 @@ public class LightChange : MonoBehaviour
 
     public bool ioCheckFlag = false;
 
+    List<float> dataList = new List<float>();
+
     void Start()
     {
         InitArduinoCommunication();
@@ -71,6 +73,7 @@ public class LightChange : MonoBehaviour
                 Debug.Log("Air Pressure Sensor: " + airData);
                 ioCheckText.text = "Air Pressure Sensor " + airData ;
                 lt.range = airData;
+                dataList.Add(airData);
     
             }
             catch (System.Exception)
