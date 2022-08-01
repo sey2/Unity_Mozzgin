@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637931150345708746
+      ticks: 637946762420043188
     m_Hash: 1879507409
   m_LockFileStatus:
     m_FilePath: C:/mozzgin/Unity_Mozzgin/Unity/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637931150860716177
+      ticks: 637946762420053400
     m_Hash: 1152500608
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -94,6 +94,7 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -108,6 +109,7 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -527,15 +529,17 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
